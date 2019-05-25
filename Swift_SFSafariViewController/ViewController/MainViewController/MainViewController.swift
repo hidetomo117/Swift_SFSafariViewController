@@ -7,14 +7,17 @@
 //
 
 import UIKit
+import SafariServices
 
-class ViewController: UIViewController {
+final class MainViewController: UIViewController {
 
+    // MARK:- View life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
+private extension MainViewController {
+    
+}
